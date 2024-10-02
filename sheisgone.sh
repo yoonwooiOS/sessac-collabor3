@@ -15,4 +15,4 @@ RANDOM_INDEX=$((RANDOM % ${#COMPLIMENTS[@]}))
 
 # 칭찬 출력
 echo ${COMPLIMENTS[$RANDOM_INDEX]}
-sleep(9999999)
+sleep 99999
